@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hår og skjønnhet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../forside.css" type="text/css">
+    <link rel="stylesheet" href="../bootstrap-social.css" type="text/css">
+    <script src="../sidebar.js" type="text/javascript"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/4c689f221f.js"></script>
+
+</head>
+
+<body>
+    <div id="page-content-wrapper">
+        <!-- Navbar for store skjermer-->
+        <nav class="navbar navbar-inverse hidden-sm hidden-xs hidden-md navbar-fixed-top sticky" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+                <a href="#" class="navbar-left"><img src="../bilder/LogoBlackAndWhiteNoText.jpeg"></a>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Hjem</a></li>
+                    <li><a href="../tjenester/tjenester.html">Tjenester</a></li>
+                    <li><a href="../produkter/produkter.html">Produkter</a></li>
+                    <li class="active"><a href="#">Om oss</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- Navbar for store skjermer slutt -->
+
+        <!-- Navbar for små skjermer -->
+        <div id="wrapper" class="hidden-lg">
+            <div class="overlay"></div>
+
+            <!-- Sidebar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top hidden-lg" id="sidebar-wrapper" role="navigation">
+                <ul class="nav sidebar-nav">
+                    <li class="sidebar-brand-">
+                        <a href="#">
+                    Brand
+                </a>
+                    </li>
+                    <li><a href="../index.html">Hjem</a></li>
+                    <li><a href="../tjenester/tjenester.html">Tjenester</a></li>
+                    <li><a href="../produkter/produkter.html">Produkter</a></li>
+                    <li><a href="#">Om</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Navbar for små skjermer+tablet slutt -->
+
+    <!-- HovedContent -->
+
+    <div class="container" id="wrapper-content">
+        <!-- Venstre side -->
+        <div class="col-md-2 hidden-xs hidden-sm" id="column-left">
+            <!-- start slipsum code -->
+
+
+
+
+
+            <!-- end slipsum code -->
+        </div>
+        <!-- Slutt på vesntre side -->
+
+        <!-- Midt kolonne -->
+        <div class="col-md-7">
+            <!-- start slipsum code -->
+
+            <h3>Hvorfor skal du velge akkurat oss?</h3>
+            <p>Vi har lang erfaring i bransjen, holder oss stadig oppdatert innen sesongens siste moter og farger. Vi ønsker deg å dine det beste innen hår og skjønnhet! </p>
+
+            <h3>Her finner du oss?</h3>
+            <p>
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                <div style='overflow:hidden;height:400px;width:600px;'>
+                    <div id='gmap_canvas' style='height:400px;width:600px;'></div>
+                    <div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div>
+                    <div><small><a href="https://termsandcondiitionssample.com">terms and conditions generator</a></small></div>
+                    <style>
+                        #gmap_canvas img {
+                            max-width: none!important;
+                            background: none!important
+                        }
+                    </style>
+                </div>
+                <script type='text/javascript'>
+                    function init_map() {
+                        var myOptions = {
+                            zoom: 14,
+                            center: new google.maps.LatLng(59.5834589, 11.162900499999978),
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        };
+                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                        marker = new google.maps.Marker({
+                            map: map,
+                            position: new google.maps.LatLng(59.5834589, 11.162900499999978)
+                        });
+                        infowindow = new google.maps.InfoWindow({
+                            content: '<strong>Hår</strong><br>Askim<br>'
+                        });
+                        google.maps.event.addListener(marker, 'click', function() {
+                            infowindow.open(map, marker);
+                        });
+                        infowindow.open(map, marker);
+                    }
+                    google.maps.event.addDomListener(window, 'load', init_map);
+                </script>
+            </p>
+
+            <h3>Om oss</h3>
+            <p>Hår og skjønnhet er en frisørsalong som holder til i Askim i Østfold. Vi har akuratt nyåpnede lokaler og håper akuratt du kommer innom for en prat! </p>
+
+
+            <!-- end slipsum code -->
+        </div>
+        <!-- Slutt midt kolonne -->
+
+        <!-- Høyre side -->
+        <div class="col-md-3" id="column-right">
+
+        </div>
+        <!-- Slutt høyre kolonne -->
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-width">
+        <div class="footer navbar navbar-fixed-bottom" id="footer">
+            <a class="btn btn-social-icon btn-twitter pull-right" id="socialBtn">
+                <span class="fa fa-twitter"></span>
+            </a>
+            <a class="btn btn-social-icon btn-facebook pull-right" id="socialBtn">
+                <span class="fa fa-facebook"></span>
+            </a>
+            <a class="btn btn-social-icon instagram pull-right" id="socialBtn">
+                <span class="fa fa-instagram"></span>
+            </a>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+    <script src="sidebar.js" type="text/javascript"></script>
+</body>
+
+</html>

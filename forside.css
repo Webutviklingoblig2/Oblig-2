@@ -319,9 +319,12 @@ html { height: 100%;}
     height: 500px;
 }
 
-#social-btn{
-    width: 500px;
-    float: inherit;
-    align-content: center;
-    padding-left: 200px;
+#footer{
+    margin-top: inherit;
 }
+
+.btn-facebook{
+    width: 100px;
+
+}
+

@@ -1,8 +1,11 @@
-.klipp{
-    margin: auto;
-    text-align: left;
-    list-style-position: inside;
-    padding: 20px;
+#klipp{
+    text-align: center;
+}
+
+#klipp2{
+    text-align: center;
+    padding-top: -50px;
+    color: white;
 }
 
 

@@ -1,7 +1,13 @@
+#hoved-tjenester{
+    margin-top: 100px;
+    padding: 20px;
+}
+
 #klipp{
     text-align: center;
     color: white;
     background-color: grey;
+    padding-bottom: 20px;
 }
 
 #klipp2{
@@ -11,4 +17,46 @@
     background-color: grey;
 }
 
+.klipping{
+    border: 1px solid;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.klipping ul li{
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.kvinner{
+    background:url('../bilder/kvinne.jpg')no-repeat;
+    background-size:100%;
+    height: auto;
+    display:block;
+    padding:0 !important;
+}
+
+.menn{
+    background:url('../bilder/mann.jpg')no-repeat;
+    background-size:100%;
+    height: auto;
+    display:block;
+    padding:0 !important;
+    color: white;
+}
+
+.barn{
+    background:url('../bilder/barn.jpg')no-repeat;
+    background-size:100%;
+    height: auto;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    text-align: right;
+}
+
+.barn ul li{
+    padding-right: 20px;
+}
 

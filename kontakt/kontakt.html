@@ -105,42 +105,10 @@
             <p>Vi har lang erfaring i bransjen, holder oss stadig oppdatert innen sesongens siste moter og farger. Vi ønsker deg å dine det beste innen hår og skjønnhet! </p>
 
             <h3>Her finner du oss?</h3>
-            <p>
-                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                <div style='overflow:hidden;height:400px;width:600px;'>
-                    <div id='gmap_canvas' style='height:400px;width:600px;'></div>
-                    <div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div>
-                    <div><small><a href="https://termsandcondiitionssample.com">terms and conditions generator</a></small></div>
-                    <style>
-                        #gmap_canvas img {
-                            max-width: none!important;
-                            background: none!important
-                        }
-                    </style>
-                </div>
-                <script type='text/javascript'>
-                    function init_map() {
-                        var myOptions = {
-                            zoom: 14,
-                            center: new google.maps.LatLng(59.5834589, 11.162900499999978),
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
-                        };
-                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                        marker = new google.maps.Marker({
-                            map: map,
-                            position: new google.maps.LatLng(59.5834589, 11.162900499999978)
-                        });
-                        infowindow = new google.maps.InfoWindow({
-                            content: '<strong>Hår</strong><br>Askim<br>'
-                        });
-                        google.maps.event.addListener(marker, 'click', function() {
-                            infowindow.open(map, marker);
-                        });
-                        infowindow.open(map, marker);
-                    }
-                    google.maps.event.addDomListener(window, 'load', init_map);
-                </script>
-            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <div id="map_canvas" class="embed-responsive-item" style="border: 1px solid black">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64613.234444124435!2d11.105745564416821!3d59.5969898148126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4643e37e52eb8dc7%3A0xe79a59819d107a29!2sAskim!5e0!3m2!1sno!2sno!4v1476719719736" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                </div>
+            </div>
 
             <h3>Om oss</h3>
             <p>Hår og skjønnhet er en frisørsalong som holder til i Askim i Østfold. Vi har akuratt nyåpnede lokaler og håper akuratt du kommer innom for en prat! </p>

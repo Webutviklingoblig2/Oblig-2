@@ -59,7 +59,9 @@ html { height: 100%;}
 }
 #wrapper-content{
     padding-top: 70px;
-    width: 80%
+    width: 80%;
+    height: auto;
+
 }
 
 /*-------------------------------*/
@@ -312,7 +314,6 @@ html { height: 100%;}
 }
 
 #column-right{
-    height: 200px;
     padding-top: 100px;
     text-align: center;
 }
@@ -372,4 +373,17 @@ html { height: 100%;}
 #footer-mid{
     padding-top: 15px;
     text-align: center;
+}
+
+#footer-mobil{
+    height: 60px;
+    padding-bottom: 50px;
+    position: relative;
+    padding-top: 10px;
+    border-top: 1px solid;
+}
+
+#footer-mobil ul li{
+    list-style: none;
+    display: inline-block;
 }

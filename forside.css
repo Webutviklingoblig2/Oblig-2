@@ -324,3 +324,25 @@ html { height: 100%;}
     padding-left: 20px;
 }
 
+#jumbo{
+    text-align: center;
+}
+
+#jumboBilde{
+    position: relative;
+}
+
+#footer-social{
+    text-align: right;
+    display: inline;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#footer-social ul{
+    list-style: none;
+}
+#footer-social li{
+    display: inline-block;
+}

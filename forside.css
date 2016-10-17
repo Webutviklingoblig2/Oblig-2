@@ -1,6 +1,7 @@
 body {
     position: relative;
     overflow-x: hidden;
+    height: 100%;
 }
 body,
 html { height: 100%;}
@@ -318,6 +319,7 @@ html { height: 100%;}
 
 #karusell{
     height: 500px;
+    padding-bottom: 50px;
 }
 
 #socialBtn{
@@ -334,11 +336,19 @@ html { height: 100%;}
     clear: both;
 }
 
+.footer-wrap{
+    border-top: 1px solid;
+    bottom: 0;
+}
+
+
 #footer-social{
     text-align: right;
     display: inline;
-    margin: 10px 5px;
     box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     float: right;
 }
 
@@ -349,10 +359,6 @@ html { height: 100%;}
     display: inline-block;
 }
 
-.footer-wrap{
-    border-top: 1px solid;
-}
-
 #footer-kontakt ul{
     list-style: none;
 }
@@ -361,4 +367,9 @@ html { height: 100%;}
     display: inline-block;
     padding-right: 10px;
     padding-top: 15px;
+}
+
+#footer-mid{
+    padding-top: 15px;
+    text-align: center;
 }

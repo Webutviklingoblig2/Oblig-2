@@ -292,8 +292,9 @@ html { height: 100%;}
 }
 
 #column-right{
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #karusell{
